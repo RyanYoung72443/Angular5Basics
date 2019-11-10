@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
   itemCount: number;
   btnText: string = 'Add an item';
   goalText: string = 'My first life goal';
-  goals = ['My first life goal', 'I want to climb a mountain', 'Go ice skating'];
+  goals = [];
 
   constructor() { }
 
